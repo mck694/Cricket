@@ -10,6 +10,10 @@
 		231D0D0729C44CF700A77709 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231D0D0629C44CF700A77709 /* Constant.swift */; };
 		231D0D0929C453C300A77709 /* MatchInfoHomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231D0D0829C453C300A77709 /* MatchInfoHomeScreenVC.swift */; };
 		231D0D0B29C457D700A77709 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231D0D0A29C457D700A77709 /* TeamViewModel.swift */; };
+		2337C59929C5C769004C031E /* TeamsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2337C59829C5C769004C031E /* TeamsListVC.swift */; };
+		2337C59D29C5E29E004C031E /* PlayersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2337C59C29C5E29E004C031E /* PlayersListVC.swift */; };
+		2337C59F29C5E322004C031E /* PlayersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2337C59E29C5E322004C031E /* PlayersListCell.swift */; };
+		2337C5A329C722E1004C031E /* PlayerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2337C5A229C722E1004C031E /* PlayerDetailVC.swift */; };
 		238DF6C129C35221009581FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DF6C029C35221009581FA /* AppDelegate.swift */; };
 		238DF6C329C35221009581FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DF6C229C35221009581FA /* SceneDelegate.swift */; };
 		238DF6C829C35221009581FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DF6C629C35221009581FA /* Main.storyboard */; };
@@ -23,6 +27,10 @@
 		231D0D0629C44CF700A77709 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		231D0D0829C453C300A77709 /* MatchInfoHomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInfoHomeScreenVC.swift; sourceTree = "<group>"; };
 		231D0D0A29C457D700A77709 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
+		2337C59829C5C769004C031E /* TeamsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListVC.swift; sourceTree = "<group>"; };
+		2337C59C29C5E29E004C031E /* PlayersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListVC.swift; sourceTree = "<group>"; };
+		2337C59E29C5E322004C031E /* PlayersListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListCell.swift; sourceTree = "<group>"; };
+		2337C5A229C722E1004C031E /* PlayerDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailVC.swift; sourceTree = "<group>"; };
 		238DF6BD29C35221009581FA /* Cricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cricket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238DF6C029C35221009581FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		238DF6C229C35221009581FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +163,10 @@
 			isa = PBXGroup;
 			children = (
 				231D0D0829C453C300A77709 /* MatchInfoHomeScreenVC.swift */,
+				2337C59829C5C769004C031E /* TeamsListVC.swift */,
+				2337C59C29C5E29E004C031E /* PlayersListVC.swift */,
+				2337C59E29C5E322004C031E /* PlayersListCell.swift */,
+				2337C5A229C722E1004C031E /* PlayerDetailVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,9 +253,13 @@
 				238DF6E229C369E1009581FA /* Team.swift in Sources */,
 				238DF6C129C35221009581FA /* AppDelegate.swift in Sources */,
 				231D0D0729C44CF700A77709 /* Constant.swift in Sources */,
+				2337C59929C5C769004C031E /* TeamsListVC.swift in Sources */,
+				2337C5A329C722E1004C031E /* PlayerDetailVC.swift in Sources */,
 				231D0D0929C453C300A77709 /* MatchInfoHomeScreenVC.swift in Sources */,
 				238DF6E029C369CA009581FA /* APIMangaer.swift in Sources */,
+				2337C59F29C5E322004C031E /* PlayersListCell.swift in Sources */,
 				238DF6C329C35221009581FA /* SceneDelegate.swift in Sources */,
+				2337C59D29C5E29E004C031E /* PlayersListVC.swift in Sources */,
 				231D0D0B29C457D700A77709 /* TeamViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,8 @@ enum DataError: Error {
 
 typealias Handler = (Result<Team, DataError>) -> (Void)
 
+//typealias HandlerTTTT = (Result<CricketTeam, DataError>) -> (Void)
+
 // Singleton Design Pattern
 
 final class APIManager {

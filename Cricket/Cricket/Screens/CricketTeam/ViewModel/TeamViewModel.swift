@@ -30,6 +30,8 @@ final class TeamViewModel {
         }
     }
     
+    
+    // Date and Time Formatter from API
     func matchTime(dateTime: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "HH:mm"
@@ -41,7 +43,7 @@ final class TeamViewModel {
         
         return date12Hour
     }
-    
+    // Date and Time Formatter from API
     func matchDay(dayTime: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MM/dd/yyyy"
@@ -54,13 +56,27 @@ final class TeamViewModel {
         return date12Hour
     }
     
+    
+    // To fetch Team Names
     func teamNames(teamName: [String: TeamValue], at index: Int) -> String {
         var teamNameArray = [String]()
         for (_, value) in teamName {
 
             teamNameArray.append(value.nameFull)
         }
-        return teamNameArray[index]
+        let sortedArray = teamNameArray.sorted(by: <)
+        
+        return sortedArray[index]
+    }
+    
+    func playerNames(playName: [String: TeamValue]) -> [String:Player] {
+
+        var playerDict = [String:Player]()
+        for (_, value) in playName {
+
+            playerDict = value.players
+        }
+        return playerDict
     }
     
 }
